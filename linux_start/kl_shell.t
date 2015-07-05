@@ -64,9 +64,13 @@ replace:
 echo ${PATH/sbin/SBIN}  #just first
 echo ${PATH//sbin/SBIN} #replace all 
 
+new_var=${old_var-content}
 username=${username-root}
-echo $username #if username is empty,username replaced by root#
+echo $username #if username is not existed,username replaced by root#
 username=louis
 username=${username-root}
-echo $username #username is not empty,show louis#
+echo $username #username is existed, empty,show louis#
+
+new_var=$(old_var:-content}
+
 

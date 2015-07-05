@@ -45,6 +45,7 @@ mkfs	[-t]  #format disk#
 
 ======
 **file zip**
+---------
 gzip
 bzip2
 tar 	[-xzvf]
@@ -52,4 +53,29 @@ dump	[-SuvjW][-level(0,1,2,3...)] #backup file system or dir#
 restore	[-tCirhfD]
 
 dd #if="input file" of="output file" bs="block size" count="number"
+cpio 	#cpio -ovcB > file | device#
+=========
+**shell**
+---------
+history
+alias
+type 	[-tpa] name #type ls#
+
+echo
+unset
+env
+set
+
+locale	#show the language VAR:en_US, zh_CN,...#
+
+read	[-pt]	#let user setthe VAR#
+declare	[-aixr]  #-a define array, -i define as int, -x export to env VAR,
+		-r readonly#
+
+ulimit	[-SHacdfltu] #thie file and program limit#
+
+
+
+
+
 
