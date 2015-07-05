@@ -1,0 +1,55 @@
+**file&folder**
+-----------
+cd
+pwd
+mkdir 	[-mp]
+rmdir 	[-p]
+cp   	[-r]
+rm   	[-f]
+mv
+basename 	#fold/file -> file#
+dirname  	#fold/fine -> fold#
+
+cat
+tac 	#reverse cat, from bottom to top#
+nl  	#view file with line number#
+more
+less
+head 	[-n]
+tail 	[-n]
+od
+touch 	[-acdmt]
+
+umask  	[-S] #default minus priortiy to create file#
+chattr 	[+-=][ASacdistu] #change invisible attribute#
+lsattr 
+
+file  	#view file type#
+
+which 	[-a]
+whereis	[-bmsu]
+locate 	[-ir]
+find 	[-name]
+======
+**file system**
+-------
+dumpe2fs
+df	[-h]
+du	[-h]
+ln	[-sf] source dest #ln -s means symbol link, ln means hard link#
+
+fdisk 	[-l]  #disk partition operation#
+mkfs	[-t]  #format disk#
+
+
+
+======
+**file zip**
+gzip
+bzip2
+tar 	[-xzvf]
+dump	[-SuvjW][-level(0,1,2,3...)] #backup file system or dir#
+restore	[-tCirhfD]
+
+dd #if="input file" of="output file" bs="block size" count="number"
+
