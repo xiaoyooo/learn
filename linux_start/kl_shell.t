@@ -73,4 +73,9 @@ echo $username #username is existed, empty,show louis#
 
 new_var=$(old_var:-content}
 
+path and command search order:
+1. absolute path or relative path
+2. alias
+3. search buildin
+4. find in $PATH
 
