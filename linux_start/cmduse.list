@@ -1,6 +1,6 @@
 **file&folder**
 -----------
-cd
+cd	#cd -:back to last dir#
 pwd
 mkdir 	[-mp]
 rmdir 	[-p]
@@ -74,8 +74,12 @@ declare	[-aixr]  #-a define array, -i define as int, -x export to env VAR,
 
 ulimit	[-SHacdfltu] #thie file and program limit#
 
+alias
+unalias
+history
+!number		#!12, exec no 12 command in history#
+!command	#!l, exec l** command in recently#
+!!		#exec last command#
 
-
-
-
+source 	#load VAR in file, source ~/.bashrc#
 
