@@ -83,3 +83,21 @@ history
 
 source 	#load VAR in file, source ~/.bashrc#
 
+cut 	[-dc]
+grep	[-acinv] 'string_to_find' filename
+
+sort	[-fbMntruk] [file or stdin]
+uniq	[-ic]
+wc	[-lwm] 	#word count#
+
+tee	[-a] file  #output to file and stdout#
+
+tr	[-ds]  #string delte or replace#
+col	[-xhb] #simple convert#
+join	[-til2] file1 file2 #join two file lines which has matched data#
+paste	[-d]   #concat two files in line#
+expand 	[-t]   #convert tab to n space#
+split	[-bl] file PREFIX #split file into smaller files#
+
+xargs	[-0pen] command #produce args for command from stdin#
+
